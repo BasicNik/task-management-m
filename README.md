@@ -1,9 +1,6 @@
 <h1 align="center">
 🌐 MERN Stack
 </h1>
-<p align="center">
-MongoDB, Expressjs, React/Redux, Nodejs
-</p>
 
 <p align="center">
    <a href="https://github.com/amazingandyyy/mern/blob/master/LICENSE">
@@ -20,7 +17,7 @@ MERN stack is the idea of using Javascript/Node for fullstack web development.
 
 ## clone or download
 ```terminal
-$ git clone https://github.com/amazingandyyy/mern.git
+$ git clone https://github.com/BasicNik/task-management-m.git
 $ yarn # or npm i
 ```
 
