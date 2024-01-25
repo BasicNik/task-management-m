@@ -11,7 +11,7 @@
    </a>
 </p>
 
-> MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
+> MERN is a fullstack implementation.
 
 MERN stack is the idea of using Javascript/Node for fullstack web development.
 
@@ -20,18 +20,20 @@ MERN stack is the idea of using Javascript/Node for fullstack web development.
 $ git clone https://github.com/BasicNik/task-management-m.git
 $ yarn # or npm i
 ```
+After Cloning the repo, run this command in both the folders to install npm packages.
 
-## project structure
 ```terminal
-LICENSE
-package.json
-server/
-   package.json
-   .env (to create .env, check [prepare your secret session])
-client/
-   package.json
-...
+$ npm install <package_name> --global
 ```
+**Note* to check is it is installed correctly or not, run this command to ensure.
+```terminal
+$ npm -v
+```
+## After completing the above steps type this in the root folder terminal
+```terminal
+$ npm run dev
+```
+This will run the server on your local network at [http://localhost:5173/](http://localhost:5173/)
 
 # Usage (run fullstack app on your machine)
 
