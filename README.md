@@ -103,7 +103,7 @@ redux-thunk: ^2.1.0 |
 # Screenshots of this project
 
 User visit public and Home page
-![User visit public and Home page](http://i.imgur.com/ORCGHHY.png)
+![User visit public and Home page](public/Images/account.png)
 
 User can sign in or sign up
 ![User can sign in or sign up](http://i.imgur.com/rrmbU5I.png)
