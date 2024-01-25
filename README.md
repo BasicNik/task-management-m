@@ -131,21 +131,11 @@ redux-thunk: ^2.1.0 |
 
 ## BUGs or comments
 
-[Create new Issues](https://github.com/amazingandyyy/mern/issues) (preferred)
+[Create new Issues](https://github.com/BasicNik/task-management-m/issues) (preferred)
 
-Email Me: amazingandyyy@gmail.com (welcome, say hi)
+
+Email Me: basicnik1798@gmail.com (welcome, say hi)
 
 ## Author
-[Amazingandyyy](https://amazingandyyy.com)
+[BasicNik](https://basicnik.vercel.app)
 
-I recently launch my monthly mentorship program, feel free to reach out and see what we can grow together:
-
-<a href="https://mentorcruise.com/mentor/andychen/"> <img src="https://cdn.mentorcruise.com/img/banner/fire-sm.svg" width="240" alt="MentorCruise"> </a>
-
-## Join the growing community
-
-[![Star History Chart](https://api.star-history.com/svg?repos=amazingandyyy/mern&type=Date)](https://star-history.com/#amazingandyyy/mern&Date)
-
-
-### License
-[MIT](https://github.com/amazingandyyy/mern/blob/master/LICENSE)
