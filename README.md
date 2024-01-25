@@ -18,12 +18,11 @@ MERN stack is the idea of using Javascript/Node for fullstack web development.
 ## clone or download
 ```terminal
 $ git clone https://github.com/BasicNik/task-management-m.git
-$ yarn # or npm i
 ```
 After Cloning the repo, run this command in both the folders to install npm packages.
 
 ```terminal
-$ npm install <package_name> --global
+$ npm install --global
 ```
 **Note* to check is it is installed correctly or not, run this command to ensure.
 ```terminal
