@@ -101,15 +101,17 @@ redux: ^3.7.2 | morgan: ^1.7.0
 redux-thunk: ^2.1.0 |
 
 # Screenshots of this project
+<p align="center"> 
+Login Page Screenshot
+</p>
+![Login Page](public/Images/account.png)
+Registration Page Screenshot
+![Registration Page](public/Images/account.png)
+Account Details Page Screenshot
+![Account Details Page](public/Images/account.png)
+Task Management Page Screenshot
+![Task Management Page](public/Images/account.png)
 
-User visit public and Home page
-![User visit public and Home page](public/Images/account.png)
-
-User can sign in or sign up
-![User can sign in or sign up](http://i.imgur.com/rrmbU5I.png)
-
-After signing in user can go to account route and make request to token-protected API endpoint
-![After signing in user can go to account route](http://i.imgur.com/FzLB51u.png)
 
 ## Standard
 
