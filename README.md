@@ -102,15 +102,27 @@ redux-thunk: ^2.1.0 |
 
 # Screenshots of this project
 <p align="center"> 
-Login Page Screenshot
+**Login Page Screenshot**
 </p>
-![Login Page](public/Images/account.png)
-Registration Page Screenshot
-![Registration Page](public/Images/account.png)
-Account Details Page Screenshot
+
+![Login Page](public/Images/login.png)
+<p align="center"> 
+**Registration Page Screenshot**
+</p>
+   
+![Registration Page](public/Images/register.png)
+
+<p align="center"> 
+**Account Details Page Screenshot**
+</p>
+
 ![Account Details Page](public/Images/account.png)
-Task Management Page Screenshot
-![Task Management Page](public/Images/account.png)
+
+<p align="center"> 
+**Task Management Page Screenshot**
+</p>
+
+![Task Management Page](public/Images/task.png)
 
 
 ## Standard
