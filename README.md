@@ -23,6 +23,13 @@ Since this project will hold both the client application and the server applicat
 **Here is a step by step guide to start the project in your local machine to run it**
 
 ## clone or download
+
+First you need to make a new folder where you can clone or downlaod this repository, try making a new folder and use this command to initialize it.
+```terminal
+$ git init
+```
+**This will initialize a empty git repository. Then follow the steps mentioned below!**
+
 ```terminal
 $ git clone https://github.com/BasicNik/task-management-m.git
 ```
@@ -34,11 +41,7 @@ $ npm install --global
 ```terminal
 $ npm -v
 ```
-## After completing the above steps type this in the root folder terminal
-```terminal
-$ npm run dev
-```
-This will run the server on your local network at [http://localhost:5173/](http://localhost:5173/)
+
 
 # Usage (run fullstack app on your machine)
 
@@ -47,7 +50,7 @@ This will run the server on your local network at [http://localhost:5173/](http:
 - [Node](https://nodejs.org/en/download/) ^10.0.0
 - [npm](https://nodejs.org/en/download/package-manager/)
 
-notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
+**Notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other**
 
 ## Client-side usage(PORT: 3000)
 ```terminal
@@ -59,8 +62,9 @@ $ npm run dev        // run it locally
 $ npm run build // this will compile the react code using webpack and generate a folder called docs in the root level
 $ npm run start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site
 ```
+This will run the server on your local network at [http://localhost:5173/](http://localhost:5173/)
 
-## Server-side usage(PORT: 8000)
+## Server-side usage(PORT: 4000)
 
 ### Prepare your secret
 
@@ -83,31 +87,6 @@ $ npm run dev // run it locally
 $ npm run build // this will build the server code to es5 js codes and generate a dist file
 ```
 
-## Deploy Server to [Heroku](https://dashboard.heroku.com/)
-```terminal
-$ npm i -g heroku
-$ heroku login
-...
-$ heroku create
-$ npm run heroku:add <your-super-amazing-heroku-app>
-// remember to run this command in the root level, not the server level, so if you follow the documentation along, you may need to do `cd ..`
-$ pwd
-/Users/<your-name>/mern
-$ npm run deploy:heroku
-```
-
-### After creating heroku
-
-if using webpack:
-remember to update the file of [client/webpack.prod.js](https://github.com/amazingandyyy/mern/blob/master/client/webpack.prod.js)
-```javascript
- 'API_URI': JSON.stringify('https://your-super-amazing-heroku-app.herokuapp.com')
-```
-if using parcel
-remember to update the file of [client/.env.production](https://github.com/amazingandyyy/mern/blob/master/client/.env.production.js)
-```
- REACT_APP_API_URI=https://your-super-amazing-heroku-app.herokuapp.com
-```
 # Dependencies(tech-stacks)
 Client-side | Server-side
 --- | ---
